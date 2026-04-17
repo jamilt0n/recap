@@ -1,0 +1,11 @@
+enabled: true
+model: sonnet
+skip_models: [haiku]
+min_messages: 3
+min_new_lines: 5
+max_transcript_exchanges: 150
+extract_transcript: true
+summarize: true
+extract_indexes: true
+notify: true
+recap_dir: ~/.recaps
